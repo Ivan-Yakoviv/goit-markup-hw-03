@@ -37,6 +37,10 @@ ul {
 
 /*header*/
 
+.header {
+  background-color: #f4f4fd;
+}
+
 .header-menu-link:hover {
   color: #404bbf;
 }
@@ -187,6 +191,10 @@ ul {
 }
 
 /* portfolio */
+
+.portfolio {
+  background-color: #f4f4fd;
+}
 
 .portfolio-title {
   color: #2e2f42;
