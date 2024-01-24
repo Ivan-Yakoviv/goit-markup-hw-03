@@ -4,6 +4,17 @@ body {
   color: #434455;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -22,7 +33,10 @@ a {
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 .container {
@@ -40,12 +54,10 @@ ul {
   background-color: #f4f4fd;
 }
 
-.header-menu-link:hover {
-  color: #404bbf;
+.container {
 }
 
-.header-menu-link:focus {
-  color: #404bbf;
+.header-nav {
 }
 
 .logo {
@@ -63,6 +75,12 @@ ul {
   color: #2e2f42;
 }
 
+.header-menu-list {
+}
+
+.header-menu-item {
+}
+
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
@@ -71,8 +89,22 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.header-menu-link:hover {
+  color: #404bbf;
+}
+
+.header-menu-link:focus {
+  color: #404bbf;
+}
+
 .header-address {
   font-style: normal;
+}
+
+.header-address-list {
+}
+
+.header-address-item {
 }
 
 .header-address-link {
@@ -95,6 +127,9 @@ ul {
 
 .hero {
   background-color: #2e2f42;
+}
+
+.container {
 }
 
 .hero-title {
@@ -135,6 +170,16 @@ ul {
   background-color: #f4f4fd;
 }
 
+.container {
+}
+
+.visually-hidden {
+}
+.features-list {
+}
+.features-item {
+}
+
 .features-title {
   color: #2e2f42;
   text-align: center;
@@ -142,10 +187,6 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
-
-.features-list {
-  margin: 0 auto;
 }
 
 .features-text {
@@ -159,6 +200,9 @@ ul {
 
 .team {
   background-color: #f4f4fd;
+}
+
+.container {
 }
 
 .team-title {
@@ -177,6 +221,9 @@ ul {
 
 .team-item {
   background-color: #ffffff;
+}
+
+.team-item-img {
 }
 
 .team-item-title {
@@ -201,6 +248,9 @@ ul {
   background-color: #f4f4fd;
 }
 
+.container {
+}
+
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -212,7 +262,12 @@ ul {
 }
 
 .portfolio-list {
-  margin: 0 auto;
+}
+
+.portfolio-item {
+}
+
+.portfolio-item-img {
 }
 
 .portfolio-item-title {
@@ -234,6 +289,9 @@ ul {
 
 .footer {
   background-color: #2e2f42;
+}
+
+.container {
 }
 
 .footer-logo {
