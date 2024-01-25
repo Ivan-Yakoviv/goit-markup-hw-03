@@ -38,6 +38,11 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 .container {
   width: 100%;
   max-width: 1158px;
@@ -149,11 +154,15 @@ ul {
 }
 
 .hero-container {
-  padding: ;
+  display: flex;
+  flex-direction: column;
+  padding: 188px 331px 188px 331px;
+  gap: 48px;
 }
 
 .hero-title {
   color: #fff;
+  display: block;
   width: 496px;
   text-align: center;
   margin: 0 auto;
@@ -161,8 +170,6 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   box-sizing: border-box;
-  padding-top: 188px;
-  padding-bottom: 292px;
 }
 
 .hero-btn {
@@ -170,7 +177,7 @@ ul {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  display: inline-flex;
+  display: block;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
@@ -198,16 +205,27 @@ ul {
 .container {
 }
 
+.features-container {
+  flex-direction: row;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .visually-hidden {
 }
 .features-list {
+  display: flex;
+  gap: 24px;
 }
 .features-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .features-title {
   color: #2e2f42;
-  text-align: center;
+  text-align: left;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
