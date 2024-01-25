@@ -54,7 +54,7 @@ img {
 /*header*/
 
 .header {
-  background-color: #FFF;
+  background-color: #fff;
   display: flex;
   align-items: center;
   border-bottom: 1px solid #e7e9fc;
@@ -66,7 +66,6 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  
 }
 
 .header-nav {
@@ -151,12 +150,12 @@ img {
 
 .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-container {
   display: flex;
   flex-direction: column;
-  padding: 188px 0;
   gap: 48px;
 }
 
@@ -202,15 +201,15 @@ img {
 /* 2 features */
 
 .features {
-  background: #FFF;
+  background: #fff;
+  flex-direction: row;
+  padding: 120px 0;
 }
 
 .container {
 }
 
 .features-container {
-  flex-direction: row;
-  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -247,13 +246,13 @@ img {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .container {
 }
 
 .team-container {
-  padding: 120px 0
 }
 
 .team-title {
@@ -264,7 +263,7 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin: 0 auto;
-  margin-bottom: 72px; 
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -291,12 +290,12 @@ img {
   padding: 32px 0;
   display: flex;
   flex-direction: column;
-  padding: 32px 0
+  padding: 32px 0;
 }
 
 .team-item-title {
   color: #2e2f42;
-  text-align: center; 
+  text-align: center;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -315,15 +314,15 @@ img {
 /* 4 portfolio */
 
 .portfolio {
-  background: #FFF;
+  background: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .container {
 }
 
 .portfolio-container {
-  padding-top: 120px; 
-  padding-bottom: 120px; 
 }
 
 .portfolio-title {
@@ -341,7 +340,7 @@ img {
   display: flex;
   justify-content: center;
   row-gap: 48px;
-  column-gap: 24px; 
+  column-gap: 24px;
   list-style: none;
   flex-wrap: wrap;
 }
@@ -353,7 +352,7 @@ img {
   align-items: flex-start;
   border: 1px solid #e7e9fc;
   background: #fff;
-  border-top: none; 
+  border-top: none;
 }
 
 .portfolio-item-img {
@@ -362,9 +361,9 @@ img {
 .portfolio-item-cont {
   display: flex;
   flex-direction: column;
-  gap 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item-title {
@@ -373,6 +372,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-item-text {
@@ -386,23 +386,23 @@ img {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .container {
 }
 
 .footer-container {
-display: flex;
-padding: 100px 0; 
-flex-direction: column;
-align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .footer-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   display: inline-block;
-  margin-bottom: 16px; 
+  margin-bottom: 16px;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
